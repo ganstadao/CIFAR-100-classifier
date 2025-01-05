@@ -49,7 +49,7 @@ pip install torch torchvision matplotlib seaborn numpy scikit-learn
 运行训练脚本：
 
 ```bash
-python scripts/train.py
+python scripts/resnet_train.py
 ```
 
 训练过程中，损失值会在每个 epoch 打印，并且每 10 个 epoch 会生成一次训练损失曲线的图像。

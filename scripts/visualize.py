@@ -3,7 +3,7 @@ import os
 from model.resnet import ResNet, ResidualBlock
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from model.utils import visualize_random_images
+from utils.utils import visualize_random_images
 
 # 准备数据
 transform_test = transforms.Compose([
